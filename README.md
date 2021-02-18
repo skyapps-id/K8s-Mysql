@@ -20,7 +20,7 @@
 
 2. Create the Secret resource in your Kubernetes cluster by using the kubectl apply command.
     ```sh
-    $ cd  K8s-Mysql/
+    $ cd  K8s-Mysql-Standalone/
     $ kubectl apply -f secret-mysql.yaml
     ```
      - NOTE Secrets data are stored as Base64 encoded strings. command : ```$ echo -n 'example' | base64 ``` example mysql password is ``adminpassword``
