@@ -15,7 +15,7 @@
 ### Installation
 1. Clone this project.
     ```sh
-    $ git clone https://github.com/skyapps-id/K8s-Mysql-Standalone
+    $ git clone https://github.com/skyapps-id/K8s-Mysql-Standalone.git
     ```
 
 2. Create the Secret resource in your Kubernetes cluster by using the kubectl apply command.
