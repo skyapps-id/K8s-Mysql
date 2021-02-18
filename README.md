@@ -21,13 +21,13 @@
 2. Create the Secret resource in your Kubernetes cluster by using the kubectl apply command.
     ```sh
     $ cd  K8s-Mysql/
-    $ kubectl apply -f configmap-and-secret.yml
+    $ kubectl apply -f secret-mysql.yaml
     ```
      - NOTE Secrets data are stored as Base64 encoded strings. command : ```$ echo -n 'example' | base64 ``` example mysql password is ``adminpassword``
 
 4. Creating a Presistance Volume Claim resource in your Kubernetes cluster by using the kubectl apply command.
     ```sh
-    $ kubectl apply -f persistence-volume-mysql.yaml
+    $ kubectl apply -f persistence-volume-claim-mysql.yaml
     ```
 
 5. Deployment Mysql resource in your Kubernetes cluster by using the kubectl apply command.
